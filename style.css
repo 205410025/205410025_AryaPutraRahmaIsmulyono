@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px/28px arial, sans-serif ;
+    background-image: url(banner.png);
+}
+
+.countainer {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 15px;
+    float :right;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color : salmon;
+    padding: 5px;
+}
+
+.header ul li a:hover {
+    background-color: skyblue;
+    color: snow;
+}
+
+.gambar {
+    margin-top: 35px;
+    height: 300px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: 0px -100px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid salmon;
+}
+
+.isi {
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.isi h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: comic sans ms;
+}
+
+.isi .penulis {
+    font-size: 11px;
+}
+
+.isi .penulis a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.isi p {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.isi ul li {
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.sidebar {
+    width: 300px;
+    float: right;
+}
+.sidebar p {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.sidebar p a {
+    background-color: salmon;
+    padding: 3px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.sidebar p a:hover {
+    background-color: white;
+}
+
+.footer {
+    background-color: gray;
+}
+
+.footer .copy {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    padding: 10px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
